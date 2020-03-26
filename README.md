@@ -17,7 +17,11 @@
 $ composer install
 $ npm install
 
-# serve with hot reload at localhost:8000
+#generate your app's key:
+
+$ php artisan key:generate 
+
+# serve with at localhost:8000
 $ npm run dev
 $ php artisan serve
 
